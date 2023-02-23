@@ -69,4 +69,4 @@ OR
 > spark-submit --packages saurfang:spark-sas7bdat:2.0.0-s_2.10 etl.py 
 
 ### Additional Details:
-![Additional Details](CapstoneProjectAdditionalDetails.PDF)
+Please refer to CapstoneProjectAdditionalDetails.pdf placed here
