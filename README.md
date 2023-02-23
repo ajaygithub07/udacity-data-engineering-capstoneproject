@@ -32,10 +32,10 @@ To create the analytics database, the following steps will be carried out:
 * Use Spark to load the data into dataframes.
 * Exploratory data analysis on datasest to identify missing values and data cleaning.
 * Create dimension tables.
-    * Create immigration calendar dimension table from I94 immigration dataset, this table links to the fact table through the arrdate field.
-    * Create country dimension table from the I94 immigration and the global temperatures dataset. The global land temperatures data was aggregated at country level. The table links to the fact table through the country of residence code allowing analysts to understand correlation between country of residence climate and immigration to US states.
-    * Create usa demographics dimension table from the us cities demographics data. This table links to the fact table through the state code field.
-    * Create fact table from the clean I94 immigration dataset and the visa_type dimension.
+* Create immigration calendar dimension table from I94 immigration dataset, this table links to the fact table through the arrdate field.
+* Create country dimension table from the I94 immigration and the global temperatures dataset. The global land temperatures data was aggregated at country level. The table links to the fact table through the country of residence code allowing analysts to understand correlation between country of residence climate and immigration to US states.
+* Create usa demographics dimension table from the us cities demographics data. This table links to the fact table through the state code field.
+* Create fact table from the clean I94 immigration dataset and the visa_type dimension.
 
 ## Step 2: Explore and Assess the Data
 > Refer to the jupyter notebook CapstoneProject.ipynb, for exploratory data analysis
